@@ -1,4 +1,4 @@
-# Social-Events-Experimentation
+# Healthcare-App-Experimentation
 
 When working in realm of behavioral science as a researcher, I had the extraordinary opportunity to join forces with a dynamic start-up, determined to unlock the full potential of their app for clinical usage. Together, we were driven by the shared vision of facilitating personal health goals, and nurturing vibrant social engagement by builing a user friendly app. In this post, I will delve into one particular challenge we tackled head-on: optimizing the social event sign-up page with A/B test experiments.
 
