@@ -27,8 +27,8 @@ H1: Difference in sign-up rate btw control & treatment group
   - Levene Test for homogeneity of variances
     
 ### 2. Hypothesis Testing
-  - After conducting a **Two-Way ANOVA** to analyze the effects of two factors (group A vs. B) and (group A vs. C) on the sign-up rates for social events, you can perform post hoc tests to compare specific group differences.
-  - **Honestly Significant Difference (Tukey's HSD) test** was used to compare simultaneous confidence intervals for all possible pairwise differences and control for family-wise error rate.
+  - After conducting a **Mann Whitney U** to analyze the effects of two factors (group A vs. B) and (group A vs. C) on the sign-up rates for social events, you can perform post hoc tests to compare specific group differences.
+  - **Mann Whitney U with bonferonni correction** was used to compare simultaneous confidence intervals for all possible pairwise differences and control for family-wise error rate.
   
 ### 3. Guardrail Test
   - Check whether or not their distance to the location differs by condition. 
