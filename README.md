@@ -9,7 +9,7 @@ Given that the app users are primarily socially avoidant individuals, we recogni
 The control group will serve as a baseline against which the effects of the two treatment groups can be compared. Treatment 1 focuses on promoting positive emotions, while Treatment 2 emphasizes the avoidance of negative emotions. These strategies are intended to make the sign-up experience more appealing and increase participation rates among socially avoidant individuals.
 
 ![image](https://github.com/yyklee/social-event-experimentation/assets/102795406/bb1a9f45-c085-4c1c-828e-c37a98bb49f3)
-Prototype Image: Control (A) vs Treatment (B) vs Treatment (C)
+Prototype Image (example image, different from actual app): Control (A) vs Treatment (B) vs Treatment (C)
 
 * **No Message:** The control group will not receive any specific message related to emotions. They will proceed with the standard sign-up experience.
 * **Positive Emotions:** Participants in this treatment group will receive messages that are specifically designed to evoke positive emotions. These messages may include uplifting and encouraging statements, images, or content.
