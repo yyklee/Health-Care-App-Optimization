@@ -9,32 +9,32 @@ Given that the app users are primarily socially avoidant individuals, we recogni
 The control group will serve as a baseline against which the effects of the two treatment groups can be compared. Treatment 1 focuses on promoting positive emotions, while Treatment 2 emphasizes the avoidance of negative emotions. These strategies are intended to make the sign-up experience more appealing and increase participation rates among socially avoidant individuals.
 
 ![image](https://github.com/yyklee/social-event-experimentation/assets/102795406/bb1a9f45-c085-4c1c-828e-c37a98bb49f3)
-Prototype Image (example image, different from actual app): Control (A) vs Treatment (B) vs Treatment (C)
+This is an example image that differs from the actual app used in the experiment.
 
 * **No Message:** The control group will not receive any specific message related to emotions. They will proceed with the standard sign-up experience.
 * **Positive Emotions:** Participants in this treatment group will receive messages that are specifically designed to evoke positive emotions. These messages may include uplifting and encouraging statements, images, or content.
 * **Avoiding Negative Emotions:** Participants in this treatment group will receive messages that aim to avoid triggering negative emotions. The messages may provide reassurance, address potential concerns, or focus on the benefits and positive aspects of the sign-up experience.
 
 **Randomization Unit:** The randomization unit for our experiment comprises all users who actively participated in the first round of the study. This means that all participants from the initial study will be included in the randomization process for the subsequent treatments.
+
 **Length of Experimentation:** Although the experiment is relatively short in duration, it is important to note that we do not have control over external factors such as season and weather. These factors may introduce additional variability into the results. Despite this limitation, we believe that the one-week timeframe provides valuable insights into the effects of the treatments under investigation. The final sum of sign-up rate was used in this analysis
 
 ## Hypothesis Testing
-H0: No difference in sign-up rate btw control & treatment group \
-H1: Difference in sign-up rate btw control & treatment group
+**H0:** There is no difference in sign-up rate between the control and treatment groups. \
+**H1:** There is a difference in sign-up rate between the control and treatment groups.
 
 ### 1. Assumption Check for Normality & Homogeneity
-  - Shapiro Test for Normality
-  - Levene Test for homogeneity of variances
+To assess the normality and homogeneity assumptions, Shapiro Test for Normality and Levene Test for homogeneity of variances were conducted on the   data sampled from the original dataset.
     
-### 2. Hypothesis Testing
-  - After conducting a **Mann Whitney U** to analyze the effects of two factors (group A vs. B) and (group A vs. C) on the sign-up rates for social events, you can perform post hoc tests to compare specific group differences.
-  - **Mann Whitney U with bonferonni correction** was used to compare simultaneous confidence intervals for all possible pairwise differences and control for family-wise error rate.
+### 2. Main Analysis
+As there was a violation of the normality assumption, the **Mann-Whitney U test** was used to analyze the effects of messages on the sign-up rates   for social events. Additionally, post hoc tests were performed to compare specific group differences. Mann Whitney U with Bonferroni correction      was applied to compare simultaneous confidence intervals for all possible pairwise differences and control for the family-wise error rate.
   
 ### 3. Guardrail Test
-  - Check whether or not their distance to the location differs by condition. 
+A guardrail test was conducted on the sampled data to assess whether the participants' distance to the location differed based on their condition.
 
-## Decisions
-Based on the information provided, it seems that the negative avoidance message tested in the study was found to be more effective than the control group or the positive emotion group. This suggests that the negative avoidance message had a positive impact on the sign-up rate. However, due to the lack of users in this experiment, we had to use the whole cohort of participants in this test and results to be applied to the next cohort of users.
+## Results & Decisions
+Based on the data analysis, the finding that the negative avoidance message was more effective than both the control group and the positive emotion group suggests that incorporating the negative avoidance message in the health care app's sign-up process could lead to higher sign-up rates for social events. Therefore, a potential business decision could be to implement the negative avoidance message as the default option for the sign-up page. 
 
 ## Citation
-Based on my previous research on Social Experience and Emotional Message (Exp1_syntax.R ~ Exp3_syntax.R) 
+Based on my previous research on Social Experience and Emotional Message
+
